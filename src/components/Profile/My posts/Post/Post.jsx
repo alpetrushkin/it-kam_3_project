@@ -6,8 +6,9 @@ const Post = (props) => {
         <div className={s.item}>
             <img src="https://kadara.ru/wp-content/uploads/2021/12/1-51.jpg" alt=""/>
             { props.message }
+
             <div>
-                <span>like</span>
+                <span>like</span> { props.like}
             </div>
         </div>
     )
